@@ -1,0 +1,558 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'donk';
+    src: url(Donsky.ttf);
+}
+
+html {
+    background-image: url(R.jpg);
+    background-size: cover;
+    font-family: 'donk';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 200px;
+    border-radius: 150px;
+    border: 5px solid rgb(255, 230, 9);
+    box-shadow: 5px 5px 10px rgb(102, 101, 49);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.edi2 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: 'donk';
+
+}
+
+.h1edi{
+    color: white;
+    font-size: 80px;
+    padding-top: 30px;
+    font-family: 'donk';
+}
+
+#principal {
+    text-align: center;
+ 
+}
+
+#segunda {
+    height: 100%;
+    width: 1000px;
+    background-color: white;
+    box-shadow: 3px px 20px inset rgb(168, 165, 165);
+    box-shadow: 10px 10px 5px rgba(105, 104, 104, 0.623);
+    border: 3px solid rgb(128, 125, 125);
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+    
+}
+
+#segun1 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(0, 25, 253);
+    box-shadow: 3px 3px 10px rgb(95, 158, 241);
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+#segun2 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(0, 25, 253);
+    box-shadow: 3px 3px 10px rgb(95, 158, 241);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun3 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(0, 25, 253);
+    box-shadow: 3px 3px 10px rgb(95, 158, 241);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun4 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(0, 25, 253);
+    box-shadow: 3px 3px 10px rgb(95, 158, 241);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun5 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(42, 120, 221);
+    box-shadow: 3px 3px 10px rgb(106, 156, 221);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun6 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(42, 120, 221);
+    box-shadow: 3px 3px 10px rgb(106, 156, 221);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun7 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(42, 120, 221);
+    box-shadow: 3px 3px 10px rgb(106, 156, 221);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun8 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(42, 120, 221);
+    box-shadow: 3px 3px 10px rgb(106, 156, 221);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun9 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun10 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+#segun11 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun12 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun13 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun14 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun15 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun16 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun17 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun18 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(137, 179, 235);
+    box-shadow: 3px 3px 10px rgb(89, 126, 173);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun19 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun20 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun21 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun22 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun23 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun24 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(44, 199, 204);
+    box-shadow: 3px 3px 10px rgb(55, 143, 146);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun25 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(40, 179, 35);
+    box-shadow: 3px 3px 10px rgb(40, 146, 54);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun26 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(40, 179, 35);
+    box-shadow: 3px 3px 10px rgb(40, 146, 54);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+#segun27 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(40, 179, 35);
+    box-shadow: 3px 3px 10px rgb(40, 146, 54);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+
+#segun28 {
+    width: 450px;
+    padding-top: 50px;
+    border: 3px solid rgb(40, 179, 35);
+    box-shadow: 3px 3px 10px rgb(40, 146, 54);
+    font-size: 15px;
+    margin-left: 520px;
+    margin-top: -188px;
+    position: absolute;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -100px;
+    
+}
+
+a:hover {
+    font-size: 30px;
+    color: rgb(228, 228, 58);
+    transition: 0.5s;
+    
+}
+
+#segun2:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+
+}
+
+#segun1:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun3:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun4:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun5:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun6:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun7:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun8:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun9:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun10:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun11:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun12:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun13:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun14:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun15:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun16:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun17:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun18:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun19:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun20:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun21:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun22:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun23:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun24:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun25:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun26:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun27:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+
+}
+
+#segun28:hover {
+    box-shadow: 5px 5px 15px inset rgb(182, 176, 176);
+    
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+hr {
+    
+    width: 600px;
+    margin: auto;
+   
+}
+
+
+
+
+
