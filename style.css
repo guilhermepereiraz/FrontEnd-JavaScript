@@ -25,6 +25,12 @@ img {
     margin-top: 30px;
 }
 
+img:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
 .edi2 {
     color: white;
     font-size: 50px;
@@ -43,6 +49,22 @@ img {
 #principal {
     text-align: center;
  
+}
+
+h1 {
+    margin-top: -30px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgba(49, 134, 209, 0.734);
+    width: 900px;
+    margin: auto;
+}
+
+p {
+    font-size: 16px;
 }
 
 #segunda {
@@ -67,7 +89,7 @@ img {
     box-shadow: 3px 3px 10px rgb(95, 158, 241);
     font-size: 15px;
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 110px;
 
 }
 
@@ -124,7 +146,7 @@ img {
     box-shadow: 3px 3px 10px rgb(106, 156, 221);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -158px;
     position: absolute;
 
 }
@@ -147,7 +169,7 @@ img {
     box-shadow: 3px 3px 10px rgb(106, 156, 221);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -210px;
     position: absolute;
 
 }
@@ -170,7 +192,7 @@ img {
     box-shadow: 3px 3px 10px rgb(89, 126, 173);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -198px;
     position: absolute;
 
 }
@@ -187,12 +209,12 @@ img {
 
 #segun12 {
     width: 450px;
-    padding-top: 50px;
+    padding-top: 70px;
     border: 3px solid rgb(137, 179, 235);
     box-shadow: 3px 3px 10px rgb(89, 126, 173);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -148px;
     position: absolute;
 
 }
@@ -215,7 +237,7 @@ img {
     box-shadow: 3px 3px 10px rgb(89, 126, 173);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -128px;
     position: absolute;
 
 }
@@ -238,7 +260,7 @@ img {
     box-shadow: 3px 3px 10px rgb(89, 126, 173);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -158px;
     position: absolute;
 
 }
@@ -261,7 +283,7 @@ img {
     box-shadow: 3px 3px 10px rgb(89, 126, 173);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -148px;
     position: absolute;
 
 }
@@ -284,7 +306,7 @@ img {
     box-shadow: 3px 3px 10px rgb(55, 143, 146);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -110px;
     position: absolute;
 
 }
@@ -307,7 +329,7 @@ img {
     box-shadow: 3px 3px 10px rgb(55, 143, 146);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -110px;
     position: absolute;
 
 }
@@ -330,7 +352,7 @@ img {
     box-shadow: 3px 3px 10px rgb(55, 143, 146);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -158px;
     position: absolute;
 
 }
@@ -353,7 +375,7 @@ img {
     box-shadow: 3px 3px 10px rgb(40, 146, 54);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -148px;
     position: absolute;
 
 }
@@ -376,7 +398,7 @@ img {
     box-shadow: 3px 3px 10px rgb(40, 146, 54);
     font-size: 15px;
     margin-left: 520px;
-    margin-top: -188px;
+    margin-top: -148px;
     position: absolute;
 
 }
@@ -394,6 +416,10 @@ a:hover {
     color: rgb(228, 228, 58);
     transition: 0.5s;
     
+}
+
+a::after {
+    color: red;
 }
 
 #segun2:hover {
@@ -549,6 +575,7 @@ hr {
     
     width: 600px;
     margin: auto;
+    margin-top: 30px;
    
 }
 
