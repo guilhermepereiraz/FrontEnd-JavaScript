@@ -6,8 +6,9 @@
 }
 
 html {
-    background-image: url(R.jpg);
-    background-size: cover;
+    background-image: url(6171819be4c31993357d758196c75701.gif);
+    background-size: 700px;
+
     font-family: 'donk';
 }
 
@@ -19,8 +20,8 @@ html {
 img {
     width: 200px;
     border-radius: 150px;
-    border: 5px solid rgb(255, 230, 9);
-    box-shadow: 5px 5px 10px rgb(102, 101, 49);
+    border: 5px solid rgb(17, 142, 252);
+    box-shadow: 5px 5px 10px rgba(92, 119, 211, 0.896);
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -29,6 +30,7 @@ img:hover {
     transform: scale(1.2);
     transition: 0.8s;
     cursor: pointer;
+
 }
 
 .edi2 {
